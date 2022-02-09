@@ -1,9 +1,15 @@
-import './App.css';
+// import './App.css';
+import List from "./components/List";
+import Map from "./components/Map";
+import Header from "./components/Header";
 
-function App() {
+let App = () => {
   return (
     <div className="App">
-    <h1>App hu m </h1>
+    <Header />
+    {/* <List />
+
+    <Map /> */}
     </div>
   );
 }
